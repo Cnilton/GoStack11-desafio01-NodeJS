@@ -1,0 +1,21 @@
+{
+  "name": "desafio02",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon --ignore __tests__"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "jest": "^26.0.1",
+    "uuidv4": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
